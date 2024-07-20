@@ -1,0 +1,30 @@
+body {
+    font-family: 'inter'; /* Familia de fuentes */
+    font-size: 12px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #000000; /* El color del fondo de la página web */
+    color: #5988FF; /* El color del texto*/ 
+}
+h1 {
+    color: #5988FF; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'inter'; /* La familia tipográfica utilizada en la cabecera */
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(123, 255, 0);
+    }
+  
+    50% {
+      color: rgb(31, 39, 2)
+    }
+  
+    100% {
+      color: rgb(20, 32, 19);
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
